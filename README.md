@@ -5,3 +5,6 @@ The energy and time efficiency of wireless sensor networks (WSNs) is frequently 
 
  # System Model 
  ![Model_system](https://user-images.githubusercontent.com/110578891/193143062-4ec7e8f0-2557-4f36-8bb2-4c3090d177fd.jpg)
+ 
+  We consider a Two-Way-Relay system that can have buffers in all nodes as shown in Figure. The network is composed of three nodes: the sources \\S_1\\, \\S_2\\ and the relay \\R\\. It is assumed that there is no direct link between \\ S_1\\  and  \\S_2\\ , then the nodes \\ S_1 \\ and \\ S_2 \\ communicate with each other via the relay node \\R\\.  All nodes are equipped with an omnidirectional antenna and \\ R \\ operates in half-duplex mode with the decode-and-forward protocol  . All the channels involved are independent and identically distributed (iid) with non-frequency-selective Rayleigh-block fading and additive white Gaussian noise (AWGN). We also consider the channels to be symmetrical. 
+The channel response between transmitter \\i\\ and receiver \\j\\ is denoted \\ h_{ij} \\ where \\ \{ij\} \subset \{S_ {1}, S_ {2}, R \} \, \mid \, i \neq j\\. The {channel average power gain} is given by \\ \lambda_{ij} = d_{ij} ^ {-\alpha}\\, where \\ \alpha \\ is the path loss exponent and \\ d_{ij} \\ the normalized distance of the corresponding link with reference to \\S_1\\ and \\S_2\\.
